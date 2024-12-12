@@ -19,6 +19,14 @@ body {
 
 }
 
+h1, h2, h3 {
+    font-family: "Playfair Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-style: normal;
+  }
+
 /* header */
 header {
     background-color: #f6d7b0;
@@ -94,16 +102,24 @@ main {
     height: 650px;
     width: 100%;
     background: url(../images/smoothies-recipes-2.jpg) no-repeat center  center/cover;
+    position: relative;
 
 }
 
-h1 {
-        font-family: "Playfair Display", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 900;
-        letter-spacing: 2px;
-        font-style: normal;
-      }
+#cover-text {
+    font-size: 100%;
+    width: 100%;
+    min-height: 100px;
+    position: absolute;
+    padding: 40px;
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: white;
+}
       
 
 /* footer */
