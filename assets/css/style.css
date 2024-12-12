@@ -27,6 +27,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 3px 1cap #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -50,11 +53,40 @@ header a {
 
 }
 
+/* navigation bar with dropdown function */
+nav {
+    position: absolute;
+    background-color: #f6d7b0;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    padding: 0;
+    display: none;
+    top: 100%;
+
+}
+
+/* nav toggle */
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 30px;
+}
+
+
 /* main */
 main {
-    background-color: blue;
+    background-color: white;
     /* make main element take up surplus space */
     flex: 1 0 auto;
+    margin-top: 106px;
 }
 
 h1 {
@@ -67,6 +99,51 @@ h1 {
       
 
 /* footer */
-footer {
-    background-color: orange;
+#social-networks {
+    background-color: #f6d7b0;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+}
+
+/* for table or larger screen size */
+@media screen and (min-width:768px) {
+    nav {
+        display: block;
+        padding-right: 1rem;
+        position: relative;
+        width: fit-content;
+        box-shadow: none;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    main {
+        margin-top: 110px;
+
+    }
+    
+}
+/* 992px and up (large devices) nav hover function*/
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 2px solid #008180;
+    }
 }
