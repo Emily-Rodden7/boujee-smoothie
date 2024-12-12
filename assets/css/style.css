@@ -29,6 +29,27 @@ header {
     box-shadow: 0 3px 1cap #3a3a3a;
 }
 
+header a {
+    text-decoration: none;
+    color: #008180;
+}
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 3px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.active {
+    border-bottom: 2px solid #008180;
+
+}
+
 /* main */
 main {
     background-color: blue;
@@ -40,6 +61,7 @@ h1 {
         font-family: "Playfair Display", sans-serif;
         font-optical-sizing: auto;
         font-weight: 900;
+        letter-spacing: 2px;
         font-style: normal;
       }
       
