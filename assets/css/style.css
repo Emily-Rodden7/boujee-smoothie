@@ -89,6 +89,14 @@ main {
     margin-top: 106px;
 }
 
+/* here section */
+#hero {
+    height: 650px;
+    width: 100%;
+    background: url(../images/smoothies-recipes-2.jpg) no-repeat center  center/cover;
+
+}
+
 h1 {
         font-family: "Playfair Display", sans-serif;
         font-optical-sizing: auto;
