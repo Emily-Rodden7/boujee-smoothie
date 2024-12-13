@@ -1,6 +1,6 @@
 <h1 align-center>My first Milestone Project; Boujee Smoothie</h1>
 
-[View the live project here.]
+[View the live project here.](https://emily-rodden7.github.io/boujee-smoothie/index.html)
 
 ## User Experience UX
 
