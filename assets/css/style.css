@@ -178,6 +178,17 @@ main {
     padding: 5%;
 }
 
+/* quick links will grow and shrink depending on size of screen.*/
+#quick-links {
+    text-align: center;
+    flex-basis: 200px;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    display: flex;
+    background-color: #f6d7b0;
+    padding-top: 10px;
+}
+
 /* for table or larger screen size */
 @media screen and (min-width:768px) {
     nav {
