@@ -143,13 +143,13 @@ After launching this first version fo the site; I would like to continue to work
 
 All images were sourced from google. Find links to these below.
 
-- Berry Smoothie (Gallery page)
-- Blue Smoothie (Gallery page)
-- Fruit & Veg (Home page)
-- Green Smoothie (Gallery page)
-- Healthy Smoothie (Gallery page)
-- Mango Smoothie (Gallery page)
-- Pineapple & Banana Smoothie (Gallery page)
-- Rainbow Smoothie (Gallery page)
-- Smoothie recipes (Home page)
-- Strawberry Smoothie (Gallery page)
+- [Berry Smoothie](https://www.eatingwell.com/recipe/7959466/mixed-berry-breakfast-smoothie/) (Gallery page)
+- [Blue Smoothie](https://thefeedfeed.com/briewilly/blue-spirulina-smoothie) (Gallery page)
+- [Fruit & Veg](https://www.istockphoto.com/photos/vegetable-heart) (Home page)
+- [Green Smoothie](https://joyfoodsunshine.com/green-smoothie/) (Gallery page)
+- [Healthy Smoothie](https://www.eatingwell.com/recipe/8029983/healthy-breakfast-smoothie/) (Gallery page)
+- [Mango Smoothie](https://www.loveandlemons.com/mango-smoothie/) (Gallery page)
+- [Pineapple & Banana Smoothie](https://www.eatthismuch.com/calories/yogurt-banana-pineapple-smoothie-906462) (Gallery page)
+- [Rainbow Smoothie](https://vegarecepten.com/en/rainbow-smoothie-recipe/) (Gallery page)
+- [Smoothie recipes](https://www.healthshots.com/healthy-eating/recipes/smoothie-recipes-for-constipation/) (Home page)
+- [Strawberry Smoothie](https://www.budgetbytes.com/mixed-berry-smoothie/) (Gallery page)
