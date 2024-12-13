@@ -66,7 +66,6 @@ My goal is the mention some of the different benefits you can get from drinking 
 
 [Home Page Wireframe](image-1.png)
 
-
 #### Gallery Wireframes
 
 [Gallery Page Wireframe](image-2.png)
