@@ -123,15 +123,36 @@ main {
 
 /* pros / benefits home page section */
 
-#health-benefits-bottom {
+#benefits, h2 {
+    padding-left: 30px;
+}
+
+#health-benefits-top {
+    padding-left: 30px;
+    text-align: left;
     padding-right: 30px;
-    text-align: right;
+
+}
+
+#health-benefits-bottom {
+    padding-left: 30px;
+    text-align: left;
+    padding-right: 30px;
+
+}
+
+#personal-benefits-top {
+    padding-left: 30px;
+    text-align: left;
+    padding-right: 30px;
+
 }
 
 #personal-benefits-bottom {
+    padding-left: 30px;
+    text-align: left;
     padding-right: 30px;
-    text-align: right;
-    max-width: left 50%;
+
     
 }
 
@@ -175,6 +196,10 @@ main {
     main {
         margin-top: 110px;
 
+    }
+
+    #pros {
+        max-width: 50%;
     }
     
 }
