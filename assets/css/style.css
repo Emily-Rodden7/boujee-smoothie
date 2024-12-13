@@ -171,6 +171,47 @@ main {
     line-height: 0;
 }
 
+/* Contact Us Page */
+
+/* Form */
+#contact-us {
+    background-image: url("../images/signup-image.webp");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#contactus-form {
+    color: #ffffff;
+    background-color: #008180;
+    padding: 30px;
+}
+
+#contactus-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.submit-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #f6d7b0;
+    color: black;
+}
+
 /* footer */
 #social-networks {
     background-color: #f6d7b0;
