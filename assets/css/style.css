@@ -122,15 +122,6 @@ main {
 }
 
 /* pros / benefits home page section */
-#benefits, h2, h3 {
-    border-bottom: 2px solid black;
-    margin-top: 10px;
-    padding-left: 30px;
-}
-
-#benefits, p {
-    padding-left: 30px;
-}
 
 #health-benefits-bottom {
     padding-right: 30px;
@@ -140,6 +131,8 @@ main {
 #personal-benefits-bottom {
     padding-right: 30px;
     text-align: right;
+    max-width: left 50%;
+    
 }
 
 /* footer */
