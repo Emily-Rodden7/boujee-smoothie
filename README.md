@@ -1,131 +1,166 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1 align-center>My first Milestone Project; Boujee Smoothie</h1>
 
-Welcome Emily Rodden,
+[View the live project here.]
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## User Experience UX
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+### User Stories 
 
-## Gitpod Reminders
+#### First time visiting the site
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+1. People visiting the site for the first time, I want people to be able to easily navigate around the site.
+2. People leaving the site with more information about smoothies.
+3. Give people an option to get in touch, to encougage engagment for them to keep coming back.
 
-`python3 -m http.server`
+#### People returning to the site
 
-A blue button should appear to click: _Make Public_,
+1. I would want to keep updating the site, with more images, maybe even feature other peoples smoothies.
+2. Being able to get in contact with people that have filled out the contact form to bring them back to the site. 
 
-Another blue button should appear to click: _Open Browser_.
+#### End goals of the site
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+1. For people to keep checking in with the site, to see if more images have been uploaded.
+2. The end goal would be to make changes from just images and include the recipes that would go alongside them. Then give people an opportunity to upload/share their own smoothie recipes and the benefits they've found from drinking it.
 
-A blue button should appear to click: _Make Public_,
+### Design
 
-Another blue button should appear to click: _Open Browser_.
+- Make sure website works on mobile, tablet, laptop and desktop. Make sure images and text change depending on the screen size the user is looking from.
+- Easy clear message from the home page.
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+After researching and brainstorming different names for my company/website; which I settled on calling it 'Boujuee Smoothie'. With a tagline of Juicy, Fresh, Irresistible.
 
-To log into the Heroku toolbelt CLI:
+Boujee is a slang term that means someone who is upwardly mobile and has a luxurious lifestyle but humble character. I got this definition from [online.](https://www.dictionary.com/e/slang/boujee/)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+#### Research
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+See below example sites that I viewed to get ideas for my own Smoothie site. These are why I went with the colour scheme I did. I wanted to attract similar user that use the site below.
 
-### Connecting your Mongo database
+- [Love Struck Smoothies](https://love-struck.com/)
+- [Fuel Juice Bar](https://fueljuicebars.com/)
+- [Boost Juice](https://www.boostjuicebars.co.uk/drinks/)
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+#### Colour Scheme
 
-------
+- Main colour scheme used is [#008180](https://www.colorhexa.com/008180) for Logo font and [#f6d7b0](https://www.colorhexa.com/f6d7b0) for background colour.
+- Text is going to be black to make it clear and stand out from the white and sandy backgrounds. 
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+#### Font Types
 
-**June 18, 2024,** Add Mongo back into template
+- Heading font type used is: [Playfair Display](https://fonts.google.com/specimen/Playfair+Display?preview.text=Boujee%20Smoothie) from [Google Fonts](https://fonts.google.com/).
+- Body font type used is: [Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans?preview.text=Boujee%20Smoothie) from [Google Fonts](https://fonts.google.com/).
+- The backup font I am using incase either of the above two don't work or breaks is the default: sans-serif.
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+#### Imagery
 
-**May 28 2024:** Fix Mongo and Links installs
+- Main home page image is bold, bright and full of colour to attact users to stay on the site and explore the other pages.
+- Images used on the gallery page are appealing to attract users to want to drink smoothies.
 
-**April 26 2024:** Update node version to 16
+#### Project Goals
 
-**September 20 2023:** Update Python version to 3.9.17.
+My goal is the mention some of the different benefits you can get from drinking smoothies and showing different types of smoothies; over a 3 page website.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Wireframes
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+#### Home Page Wireframes
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+Mobile:
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+Tablet:
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+Desktop:
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+#### Gallery Wireframes
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+Mobile:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+Tablet:
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+Desktop:
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+#### Contact Us Wireframes
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Mobile:
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Tablet:
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+Desktop:
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Features
 
-------
+- Responsive on all device sizes and browsers.
+- External links (external links open in new tabs eg. Facebook, Instagram, Youtube)
+- Responsive navigation menu on all screen sizes.
 
-## FAQ about the uptime script
+## Technologies Used
 
-**Why have you added this script?**
+### Language Used
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-**How will this affect me?**
+## Testing
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+- [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### Bugs
 
-**So….?**
+-   On mobile devices the Fruit & Veg Image on the home page wasn't sitting where it should. After a couple of reformatting, I prefered the mobile version without the Fruit & Veg Image. This image now only appears on screens larger than a standard mobile size screen. 
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+## Further Testing
 
-**Can I opt out?**
+-   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+-   The website was viewed on different devices including, Desktop, Laptop, iPhoneSE and Samsung Galaxy A51/71.
+-   A large amount of testing was done to ensure that all pages were linking correctly.
+-   My dad and partner were asked to review the site and feedback any problems they amy come across. As well as how easy the site is to navigate around. Due to the age difference between my dad and partner, I found out my website was easy to navigate for both generations.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+## Deployment
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### GitHub Pages    MAKE CHANGES HERE!!!
 
-**Anything more?**
+The project was deployed to GitHub Pages using the following steps...
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
 
----
+## Next Stage
 
-Happy coding!
+After launching this first version fo the site; I would like to continue to work on it to improve and add more features to give more reasons for people to keep coming back to the site. These include:
+
+- Adding in recipes for each picture; as well as nutritional value and the benefits you could gain from drinking particular smoothies.
+- Eventually have a newsletter featuring people's own versions of differnet smoothies and how the came to perfecting it. 
+- Listing and exploring more benfits of smoothies and splitting different smoothies into different sections, depending on different benefits the user could gain.
+
+## Credits
+
+- All content was written by developer; with the help of the videos from Code Institute Level 5 Diploma in Web Application Development Course.
+
+### Media
+
+[FontAwesome](https://fontawesome.com/) was used for the social media icons in the footer of the site.
+
+- [Facebook Icon](https://fontawesome.com/icons/square-facebook?f=brands&s=solid)
+- [Instagram Icon](https://fontawesome.com/icons/square-instagram?f=brands&s=solid)
+- [Youtube Icon](https://fontawesome.com/icons/square-youtube?f=brands&s=solid)
+
+
+All images were sourced from google. Find links to these below.
+
+- Berry Smoothie (Gallery page)
+- Blue Smoothie (Gallery page)
+- Fruit & Veg (Home page)
+- Green Smoothie (Gallery page)
+- Healthy Smoothie (Gallery page)
+- Mango Smoothie (Gallery page)
+- Pineapple & Banana Smoothie (Gallery page)
+- Rainbow Smoothie (Gallery page)
+- Smoothie recipes (Home page)
+- Strawberry Smoothie (Gallery page)

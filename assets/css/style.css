@@ -16,7 +16,6 @@ body {
 
     /* generic projects styles */
     color: #3a3a3a;
-
 }
 
 h1, h2, h3 {
@@ -88,7 +87,6 @@ nav {
     font-size: 30px;
 }
 
-
 /* main */
 main {
     background-color: white;
@@ -121,9 +119,7 @@ main {
     color: white;
 }
 
-
 /* pros / benefits home page section */
-
 #benefits, h2 {
     padding-left: 30px;
     margin-top: 20px;
@@ -299,7 +295,6 @@ main {
 }
     
 }
-
 
 /* 992px and up (large devices) nav hover function*/
 @media screen and (min-width: 992px) {
