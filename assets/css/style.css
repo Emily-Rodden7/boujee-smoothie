@@ -121,10 +121,13 @@ main {
     color: white;
 }
 
+
 /* pros / benefits home page section */
 
 #benefits, h2 {
     padding-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #health-benefits-top {
@@ -138,6 +141,7 @@ main {
     padding-left: 30px;
     text-align: left;
     padding-right: 30px;
+    margin-top: 20px;
 
 }
 
@@ -145,6 +149,7 @@ main {
     padding-left: 30px;
     text-align: left;
     padding-right: 30px;
+    margin-top: 20px;
 
 }
 
@@ -152,6 +157,8 @@ main {
     padding-left: 30px;
     text-align: left;
     padding-right: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 
     
 }
@@ -201,6 +208,20 @@ main {
     #pros {
         max-width: 50%;
     }
+
+    /* images on home page */
+
+#essential-nutrients-img {
+    background: url(../images/fruit&veg.jpeg) no-repeat top center / cover;
+    height: 500px;
+    width: 500px;
+    max-width: 500px;
+    max-height: 500px;
+    float: right;
+    padding-right: 50%;
+    margin-right: 10px;
+}
+
     
 }
 /* 992px and up (large devices) nav hover function*/
