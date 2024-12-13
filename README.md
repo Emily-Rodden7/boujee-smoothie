@@ -89,7 +89,7 @@ My goal is the mention some of the different benefits you can get from drinking 
 
 ## Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. There was one warning for the incorrect ALT attribute, so I changed this and run the test again, and the site passed. See my results below.
 
 - [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Femily-rodden7.github.io%2Fboujee-smoothie%2F)
 - [W3C Markup Validator Screenshot Results](image-4.png)
