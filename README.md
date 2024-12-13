@@ -64,27 +64,16 @@ My goal is the mention some of the different benefits you can get from drinking 
 
 #### Home Page Wireframes
 
-Mobile:
+[Home Page Wireframe](image-1.png)
 
-Tablet:
-
-Desktop:
 
 #### Gallery Wireframes
 
-Mobile:
-
-Tablet:
-
-Desktop:
+[Gallery Page Wireframe](image-2.png)
 
 #### Contact Us Wireframes
 
-Mobile:
-
-Tablet:
-
-Desktop:
+[Contact Us Page Wireframe](image-3.png)
 
 ## Features
 
@@ -119,17 +108,16 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ## Deployment
 
-### GitHub Pages    MAKE CHANGES HERE!!!
+### GitHub Pages
 
-The project was deployed to GitHub Pages using the following steps...
+Boujee Smoothie was deployed to GitHub Pages.
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
-3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+3. On the settings page, scroll down until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
-5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+5. The page will then automatically refresh.
+6. Scroll back down through the page to locate the now published site. [Click here to see the live site.](https://emily-rodden7.github.io/boujee-smoothie/index.html)
 
 ## Next Stage
 
