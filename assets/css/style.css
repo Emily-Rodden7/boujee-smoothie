@@ -158,9 +158,17 @@ main {
     text-align: left;
     padding-right: 30px;
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 20px; 
+}
 
-    
+/* Gallery Page */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
 }
 
 /* footer */
