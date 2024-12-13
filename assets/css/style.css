@@ -186,7 +186,7 @@ main {
     padding: 5%;
 }
 
-/* quick links will grow and shrink depending on size of screen.*/
+/* quick links change size depending on size of screen.*/
 #quick-links {
     text-align: center;
     flex-basis: 200px;
@@ -195,6 +195,14 @@ main {
     display: flex;
     background-color: #f6d7b0;
     padding-top: 10px;
+}
+
+/* large or landscape screens; 576px and up */
+@media screen and (min-width:576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
 }
 
 /* for table or larger screen size */
@@ -241,11 +249,22 @@ main {
     margin-right: 10px;
 }
 
+/* gallery page */
+
+#photos {
+    column-count: 3;
+}
     
 }
+
+
 /* 992px and up (large devices) nav hover function*/
 @media screen and (min-width: 992px) {
     #menu a:hover{
         border-bottom: 2px solid #008180;
+    }
+
+    #photos {
+        column-count: 4;
     }
 }
